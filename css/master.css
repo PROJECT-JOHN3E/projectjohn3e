@@ -1,0 +1,165 @@
+/* Reset & Base Styling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Playfair Display', serif;
+  background-color: #f7f7f7;
+  color: #222;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+.header {
+  background: #00542f;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url('../images/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.4); /* Dark overlay */
+
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 2rem 100px;
+  border: 1px solid rgba(28, 28, 28, 0.11);
+
+  text-align: center;
+  color: #fff;
+}
+
+.hero h2 {
+  margin-bottom: 0.5rem;
+}
+
+/* ABCs Section */
+.abcs {
+  padding: 2rem;
+  max-width: 700px;
+  margin: 2rem auto;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.abcs h2 {
+  font-size: 1.8rem;
+  color: #00542f;
+  margin-top: 1.5rem;
+}
+
+.abcs h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.gospel {
+  padding: 2rem;
+  max-width: 700px;
+  margin: 2rem auto;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.gospel h2 {
+  font-size: 1.8rem;
+  color: #00542f;
+  margin-bottom: 1rem;
+}
+
+.gospel p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #333;
+}
+
+.about {
+  padding: 2rem;
+  max-width: 700px;
+  margin: 2rem auto;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.about h2 {
+  font-size: 1.8rem;
+  color: #00542f;
+  margin-bottom: 1rem;
+}
+
+.about p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #333;
+}
+
+.contact {
+  padding: 2rem;
+  max-width: 700px;
+  margin: 2rem auto;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.contact h2 {
+  font-size: 1.8rem;
+  color: #00542f;
+  margin-bottom: 1rem;
+}
+
+.contact p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #333;
+}
+
+.contact a {
+  color: #00542f;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background-color: #00542f;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
